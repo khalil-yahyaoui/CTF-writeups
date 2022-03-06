@@ -89,3 +89,4 @@ with process(['python3', 'Kinda_AESthetic.py']) if local else remote(*host) as i
 	tamp = tamp + enc_token
 	io.sendline(tamp.hex().encode())
 	print(io.recvline())
+#p_ctf{4_l1ttl3_p4d4tt4ck_h3r3_&4_l1ttl3_x0r_THERE}
