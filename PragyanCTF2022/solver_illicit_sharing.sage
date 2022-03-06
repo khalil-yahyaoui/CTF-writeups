@@ -26,3 +26,4 @@ p1 = n1 // q1
 ct0 = ct0 % q0 - 1
 d = inverse_mod(p0,(p0-1)*(q0-1))
 print(long_to_bytes(pow(ct0,d,n0) % q0))
+#p_ctf{s4rk4r_m4i7ra_5h4r3d_MSB}
